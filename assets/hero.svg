@@ -1,0 +1,57 @@
+<svg width="1200" height="390" viewBox="0 0 1200 390" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070A0F"/>
+      <stop offset="0.55" stop-color="#0B1018"/>
+      <stop offset="1" stop-color="#070A0F"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="170" y1="0" x2="1030" y2="390" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#67E8F9"/>
+      <stop offset="0.48" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#34D399"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#94A3B8" stroke-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="390" rx="18" fill="url(#bg)"/>
+  <rect x="1" y="1" width="1198" height="388" rx="17" stroke="#334155" stroke-opacity="0.65"/>
+  <rect width="1200" height="390" rx="18" fill="url(#grid)"/>
+
+  <circle cx="110" cy="70" r="120" fill="#67E8F9" fill-opacity="0.035"/>
+  <circle cx="1100" cy="330" r="170" fill="#A78BFA" fill-opacity="0.035"/>
+
+  <g opacity="0.7">
+    <path d="M40 318H230" stroke="#334155"/>
+    <path d="M970 72H1160" stroke="#334155"/>
+    <circle cx="230" cy="318" r="3" fill="#67E8F9" filter="url(#glow)"/>
+    <circle cx="970" cy="72" r="3" fill="#34D399" filter="url(#glow)"/>
+  </g>
+
+  <text x="600" y="104" text-anchor="middle" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" letter-spacing="5">DIGITAL ENGINEERING • SECURITY • GROWTH</text>
+
+  <text x="600" y="166" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="43" font-weight="700">Mohammad Salim Ullah</text>
+
+  <text x="600" y="202" text-anchor="middle" fill="#CBD5E1" font-family="Inter, Arial, sans-serif" font-size="17">Full-Stack Developer  ·  Web Application Security  ·  SEO  ·  Paid Growth</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">
+    <text x="204" y="282" text-anchor="middle" fill="#67E8F9">BUILD</text>
+    <text x="390" y="282" text-anchor="middle" fill="#CBD5E1">→</text>
+    <text x="496" y="282" text-anchor="middle" fill="#A78BFA">SECURE</text>
+    <text x="600" y="282" text-anchor="middle" fill="#CBD5E1">→</text>
+    <text x="704" y="282" text-anchor="middle" fill="#C4B5FD">OPTIMIZE</text>
+    <text x="810" y="282" text-anchor="middle" fill="#CBD5E1">→</text>
+    <text x="934" y="282" text-anchor="middle" fill="#34D399">GROW</text>
+  </g>
+
+  <path d="M170 300H1030" stroke="url(#accent)" stroke-opacity="0.7"/>
+  <circle cx="170" cy="300" r="3" fill="#67E8F9"/>
+  <circle cx="1030" cy="300" r="3" fill="#34D399"/>
+
+  <text x="600" y="342" text-anchor="middle" fill="#64748B" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="12" letter-spacing="2">BUILD WITH PURPOSE • SECURE BY DESIGN • OPTIMIZE RELENTLESSLY • GROW INTENTIONALLY</text>
+</svg>
