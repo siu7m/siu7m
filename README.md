@@ -1,6 +1,6 @@
 <div align="center">
 
-# Mohammad Salim Ullah
+# Salim Muqtadir
 
 **Full-Stack Developer • Web Application Security • SEO • Growth**
 
